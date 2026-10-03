@@ -1,0 +1,44 @@
+{
+  "source_notebook_sha256": "604e3dd4dc600ab90e47036606689567fb405ff936f2b1aa97b307ee599e5506",
+  "figure": {
+    "source_cell_index": 24,
+    "source_output_index": 1,
+    "sha256": "a952d9235ba252125ec89ce11664a6be562d5fa4559ed8e7ae9f72fa7caf3431",
+    "status": "Saved notebook output, not a new run. Execution-time parameters and seed cannot be verified from the saved figure."
+  },
+  "current_notebook_settings": {
+    "image": "00002.png",
+    "sigma_y": 0,
+    "dps_scale": 0.01,
+    "blur_kernel_size": 61,
+    "blur_sigma": 4.0,
+    "steps": 1000
+  },
+  "quantitative_metrics": null,
+  "guided_diffusion_commit": "22e0df8183507e13a7813f8d38d51b072ca1e67c",
+  "original_vendor_file_sha256": {
+    "__init__.py": "ec30483aa641d5c1b9cc8910554324949f2288eadd085310d4c312cdda294c73",
+    "script_util.py": "d47bb38ea450bf6e7c57c494a43947f6664f45b58a487f6315f5ec83365b80b8",
+    "gaussian_diffusion.py": "ece0176dc6f3a176774d4343c4887d5a44733925f8e47299c39ede3e7a9c797e",
+    "respace.py": "b9a509b28c10a52ca3ee8cc48f40205b1d70aecfc95356b540dc88415368c2de",
+    "unet.py": "ab3ad40d70a551069f3e2d14698f7c6712e5738d0be1365def6cad78ca15eeda",
+    "fp16_util.py": "31ce6b36be7a2a09606687a4935eca6b093f645c7ecd2111f43fca54aff3dc2a",
+    "nn.py": "d9547fb22b421a16dc079cb82a9d98630100b5e1b2a710d343f4d3f90b8661f3",
+    "losses.py": "0b0f5a5532910fbc7f16d30f2b891d8f1e20aa88881589ce4eacc2cc6ce06026",
+    "logger.py": "615d9cb63dd2cfe017ac424bcc64340257c83eb9cb8e6b6913df4bd55831c1c0"
+  },
+  "current_vendor_file_sha256": {
+    "__init__.py": "ec30483aa641d5c1b9cc8910554324949f2288eadd085310d4c312cdda294c73",
+    "script_util.py": "d47bb38ea450bf6e7c57c494a43947f6664f45b58a487f6315f5ec83365b80b8",
+    "gaussian_diffusion.py": "ece0176dc6f3a176774d4343c4887d5a44733925f8e47299c39ede3e7a9c797e",
+    "respace.py": "b9a509b28c10a52ca3ee8cc48f40205b1d70aecfc95356b540dc88415368c2de",
+    "unet.py": "ab3ad40d70a551069f3e2d14698f7c6712e5738d0be1365def6cad78ca15eeda",
+    "fp16_util.py": "31ce6b36be7a2a09606687a4935eca6b093f645c7ecd2111f43fca54aff3dc2a",
+    "nn.py": "02595c2b29243eb2f8386acb29c151af2b3a69a45edc501db7400d5e327d001f",
+    "losses.py": "0b0f5a5532910fbc7f16d30f2b891d8f1e20aa88881589ce4eacc2cc6ce06026",
+    "logger.py": "615d9cb63dd2cfe017ac424bcc64340257c83eb9cb8e6b6913df4bd55831c1c0"
+  },
+  "vendor_changes": {
+    "nn.py": "Replace legacy custom activation checkpoint with torch.utils.checkpoint(use_reentrant=False) for frozen-weight input gradients."
+  }
+}
